@@ -30,8 +30,7 @@ function SignUp() {
     },
   });
   const onSubmit = (data) => {
-    console.log("data!!!!!!");
-    console.log(data);
+    alert("입력된 data \n" + JSON.stringify(data));
   };
   return (
     <ThemeProvider theme={theme}>

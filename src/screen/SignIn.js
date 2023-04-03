@@ -28,8 +28,7 @@ const SignIn = () => {
     },
   });
   const onSubmit = (data) => {
-    console.log("data!!!!!!");
-    console.log(data);
+    alert("입력된 data" + data);
   };
 
   return (

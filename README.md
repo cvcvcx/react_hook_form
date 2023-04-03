@@ -26,3 +26,8 @@ React-hook-form을 이용하면, 기본적으로 ref값을 이용하도록 설�
 - MUI를 사용할 때 React-Hook-form을 사용하는 방법을 찾아서 적용시켰다.
 - 그냥 form이나, input을 사용할 때와는 다르게, Controller라는 컴포넌트로 감싸거나, useController라는 훅을 이용해서, 커스텀 컴포넌트를 제작하여 사용한다.
 - src/component/CustomTextInput을 참고
+
+## 실제 페이지의 모습
+![Submit_validation](./image/SignUpPage.gif)
+
+- onBlur 이벤트일때 값을 검증하여 에러를 보여준다.
