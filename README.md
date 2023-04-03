@@ -17,3 +17,12 @@ React-hook-form을 이용하면, 기본적으로 ref값을 이용하도록 설�
 또한, yup이라는 라이브러리를 이용하여, schema를 만들어, 검증하는 기준도 따로 관리가 가능하다는 장점이 있다.
 앞으로 React를 사용하는 프로젝트의 경우, 잘 쓰일 수 있을 것 같다.
 
+
+---
+
+## MUI의 사용
+
+### MUI를 사용하여 깔끔한 UI를 가진 로그인 페이지와, 회원가입페이지를 제작한다.
+- MUI를 사용할 때 React-Hook-form을 사용하는 방법을 찾아서 적용시켰다.
+- 그냥 form이나, input을 사용할 때와는 다르게, Controller라는 컴포넌트로 감싸거나, useController라는 훅을 이용해서, 커스텀 컴포넌트를 제작하여 사용한다.
+- src/component/CustomTextInput을 참고
